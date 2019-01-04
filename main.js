@@ -367,9 +367,29 @@
     // reduce/reduceRight— для прохода по массиву с вычислением значения
 
 
+    //
+    // var time = new Date();  // Объект с времинем и точной датой
+    //
+    // console.log(time);
 
-    var time = new Date();  // Объект с времинем и точной датой
 
-    console.log(time);
+    // var user = {
+    //     name: 'ilya',
+    //     soname: 'Wise'
+    // };
+    //
+    //    console.log(this.user) ;
 
 
+
+    var user = {
+        name: 'Василий',
+
+        sayHi: function () {
+            console.log(this.name);  // Указатель this
+        }
+    };
+
+    user.sayHi();
+
+    user.sayHi();
