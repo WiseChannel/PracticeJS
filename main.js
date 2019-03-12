@@ -382,14 +382,89 @@
 
 
 
-    var user = {
-        name: 'Василий',
+    // var user = {
+    //     name: 'Василий',
+    //
+    //     sayHi: function () {
+    //         console.log(this.name);  // Указатель this
+    //     }
+    // };
+    //
+    // user.sayHi();
+    //
+    // user.sayHi();
 
-        sayHi: function () {
-            console.log(this.name);  // Указатель this
-        }
-    };
 
-    user.sayHi();
+    // console.log(new Date);
 
-    user.sayHi();
+
+    // function f(x) {
+    //
+    // };
+    //
+    // var timers = {};
+    //
+    // f = timingDecorator(f,'myfunc');
+    //
+    // f(1);
+    // f(2);
+    // f(3);
+    //
+    // console.log(timers.myFunc);
+    //
+
+
+
+
+    //
+    // function func() {
+    //     while (i = 0; i < 100) {
+    //         console.log(i);
+    //     }
+    // }
+    // setTimeout(func, 5000);
+
+
+                                // КофеВарка на ООП
+
+
+   //
+   //
+   //  function CoffeeMachine(power) {
+   //      this.waterAmount = 0;
+   //
+   //      // расчет времени для кипячения
+   //      function getBoilTime() {
+   //          return 1000; // точная формула расчета будет позже
+   //      }
+   //
+   //      //что делать по окончании процесса
+   //      function onReady() {
+   //          console.log('Кофе готово!');
+   //      }
+   //
+   //      this.run = function() {
+   //          //setTimeout - встроенная функция
+   //          // она запустит onReady через getBoilTime
+   //          setTimeout(onReady, getBoilTime());
+   //      };
+   //
+   //  }
+   //  var coffeeMachine = new CoffeeMachine(100);
+   //  coffeeMachine.waterAmount = 200;
+   //
+   // coffeeMachine.run();
+   //
+   
+
+//    let oValue = 0o10;
+//    console.log(oValue);
+
+
+//     let twoValue = 0020;                         // восьмиричная и двоичная система исчисления
+//     console.log(twoValue);
+
+    let person = 'Wise';
+    console.log(`Привет ${person}`)     // строковые шаблоны и разделители 
+
+    
