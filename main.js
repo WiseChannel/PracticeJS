@@ -464,7 +464,7 @@
 //     let twoValue = 0020;                         // восьмиричная и двоичная система исчисления
 //     console.log(twoValue);
 
-    let person = 'Wise';
-    console.log(`Привет ${person}`)     // строковые шаблоны и разделители 
+   //  let person = 'Wise';
+   //  console.log(`Привет ${person}`)     // строковые шаблоны и разделители 
 
     
