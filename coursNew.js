@@ -181,3 +181,4 @@ console.log(array)
     function nameFuncTwo(newArrytwo) {
         newArrytwo.map(return parseInt(i))
     }
+
