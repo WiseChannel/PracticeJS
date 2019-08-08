@@ -42,9 +42,9 @@
 //
 //
 //
-//     if (result == ageIlya) {
+//     if (result === ageIlya) {  // нужно использовать точное сравнения для более строгой типизации/сравнения
 //         alert('Правильно!');
-//     } else if (result != ageIlya) {
+//     } else if (result !== ageIlya) {  // тоже самое
 //         alert('А вот и нет');
 //     }   else {
 //         alert('Что-то пошло не так');
@@ -55,7 +55,7 @@
 //
 // const nameCompany = prompt('Кто создал JavaScript?');
 //
-//     if (nameCompany == 'EcmaScript') {
+//     if (nameCompany === 'EcmaScript') {  // строгая типизация
 //         alert('Все верно!');
 //     } else {
 //         alert('Увы, нет');
@@ -123,6 +123,7 @@
 //             break;
 //         case 5:
 //             alert('Перебор');
+
 //             break;
 //         default:
 //             alert('Я таких значений не знаю');
@@ -425,10 +426,10 @@
     // setTimeout(func, 5000);
 
 
-                                // КофеВарка на ООП
+                              //  КофеВарка на ООП
 
 
-   //
+
    //
    //  function CoffeeMachine(power) {
    //      this.waterAmount = 0;
@@ -448,23 +449,22 @@
    //          // она запустит onReady через getBoilTime
    //          setTimeout(onReady, getBoilTime());
    //      };
-   //
    //  }
    //  var coffeeMachine = new CoffeeMachine(100);
    //  coffeeMachine.waterAmount = 200;
    //
    // coffeeMachine.run();
    //
-   
-
-//    let oValue = 0o10;
-//    console.log(oValue);
-
-
-//     let twoValue = 0020;                         // восьмиричная и двоичная система исчисления
-//     console.log(twoValue);
-
+   //
+   //
+   // let oValue = 0o10;
+   // console.log(oValue);
+   //
+   //
+   //  let twoValue = 0020;                         // восьмиричная и двоичная система исчисления
+   //  console.log(twoValue);
+   //
    //  let person = 'Wise';
-   //  console.log(`Привет ${person}`)     // строковые шаблоны и разделители 
-
-    
+   //  console.log(`Привет ${person}`)     // строковые шаблоны и разделители
+   //
+   //
