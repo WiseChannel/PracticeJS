@@ -1,20 +1,12 @@
 // let nameCar = 'Ford';
 // let carYear = '2008';
 // let personYear = '1999';
-<<<<<<< HEAD
 //
-=======
 
->>>>>>> 96bfda5e7e501525c9373db48ffae4eebe3d76e4
 // function calculateCar() {
 //     // let carYear = '2008';
 //     // let personYear = '1999';
 //     let result = carYear - personYear;
-<<<<<<< HEAD
-//
-=======
-
->>>>>>> 96bfda5e7e501525c9373db48ffae4eebe3d76e4
 //     if(result === 9) {
 //         console.log('Result = 9');
 //     } else if (result === 8) {
@@ -22,7 +14,6 @@
 //     } else {
 //         console.log('Result !=')
 //     }
-<<<<<<< HEAD
 //
 //     // switch(result === 9) {
 //     //     case
@@ -31,7 +22,6 @@
 //     return result;
 // }
 //
-=======
 
 //     // switch(result === 9) {
 //     //     case 
@@ -40,7 +30,6 @@
 //     return result;
 // }
 
->>>>>>> 96bfda5e7e501525c9373db48ffae4eebe3d76e4
 
 // // console.log(calculateCar());
 
@@ -58,7 +47,6 @@
 // //     console.log(mus[i]);
 // // }
 
-<<<<<<< HEAD
 //
 // let div = document.getElementById('root')
 // let p = document.getElementsByClassName('root')     // старые методы обращение через DOM
@@ -71,7 +59,6 @@
 //
 //
 //
-=======
 
 // // let div = document.getElementById('root')
 // // let p = document.getElementsByClassName('root')     // старые методы обращение через DOM
@@ -84,7 +71,6 @@
 
 
 
->>>>>>> 96bfda5e7e501525c9373db48ffae4eebe3d76e4
 // function inner() {
 //     let ul = document.querySelector('#root');
 //     ul.innerHTML = '<p>Hello Wise</p>';
@@ -196,53 +182,6 @@
 
 
 
-let ford = Object.create({
-    calculateDistanceYear: function () {
-        Object.defineProperty(this, 'distancePerYear', {
-            value: (this.distance / this.age),
-            enumerable: true,
-            writable: false,
-            configurable: false
-        })
-    }
-}, {
-    name: {
-        value: 'Ford',
-        enumerable: true,
-        writable: false,
-        configurable: false
-    },
-    model: {
-        value: 'Focus',
-        enumerable: true,
-        writable: false,
-        configurable: false
-    },
-    year: {
-        value: '2015',
-        enumerable: true,
-        writable: false,
-        configurable: false
-    },
-    distance: {
-        value: '120500',
-        enumerable: true,
-        writable: true,
-        configurable: false
-    },
-    age: {
-        enumerable: true,
-        get: function () {
-            console.log('Получаем возраст')
-            return new Date().getFullYear() - this.year
-        },
-        set: function () {
-            console.log('Установили значение')
-        }
-    }
-});
-
-console.log(ford);
 
 
 
@@ -253,10 +192,6 @@ console.log(ford);
 
 
 
-
-
-<<<<<<< HEAD
-=======
 // let p = document.querySelector('#root');
 // let button = document.querySelector('#inputeText');
 // let input = document.querySelector('#inputID')
@@ -313,39 +248,90 @@ console.log(ford);
 //         event.target.style.color = 'red'
 //     })
 // }
+//
+// const str = '1,2,3,4,5,6,7,8,9';
+//
+// const array = str.split(','); // разделяет каждое значение - ,
+//
+// console.log(array.join(';')); // join соеденяет все элементы масива ;
+//
+// console.log(array.reverse()) // делает реверс масива
+//
+//
+// array.splice(1, 2) // splice выбирает нужную часть масива и удаляет ее (у splice много возможностей)
+//
+// array.splice(1, 2, 'new item') // выбирает место, удаляет там нужное количество элементов и вставляет туда наш новый элемент масива
+//
+// array.splice(1, 0, 'new item') // ничего не удаляет, только добавляет в нужно место новый элемент в масив
+//
+// const newArray = array.concat([32,2,3]) // создаем новую переменную, входим в существующий масив и добавляем в него новый масив с новыми элементами в нем
+//
+// console.log(array)
+//
+//  console.log(newArray);
+//
+//
+//  const oldArry = [1,2,3,4,5,6,7,8,9,10].filter(function(i) { // filter фильтрует все значения элементы
+//      return i % 2 !== 0;                                    // масива и выполняет парметры указанные
+//  })                                                         // в функции
+//
+//  console.log(oldArry);
+//
+//
+//  let newArrytwo = str;
+//
+//     function nameFuncTwo(newArrytwo) {
+//         newArrytwo.map(return parseInt(i))
+//     }
 
-const str = '1,2,3,4,5,6,7,8,9';
-
-const array = str.split(','); // разделяет каждое значение - , 
-
-console.log(array.join(';')); // join соеденяет все элементы масива ;
-
-console.log(array.reverse()) // делает реверс масива
 
 
-array.splice(1, 2) // splice выбирает нужную часть масива и удаляет ее (у splice много возможностей) 
 
-array.splice(1, 2, 'new item') // выбирает место, удаляет там нужное количество элементов и вставляет туда наш новый элемент масива
-
-array.splice(1, 0, 'new item') // ничего не удаляет, только добавляет в нужно место новый элемент в масив
-  
-const newArray = array.concat([32,2,3]) // создаем новую переменную, входим в существующий масив и добавляем в него новый масив с новыми элементами в нем
-
-console.log(array)
-
- console.log(newArray);
-
-
- const oldArry = [1,2,3,4,5,6,7,8,9,10].filter(function(i) { // filter фильтрует все значения элементы
-     return i % 2 !== 0;                                    // масива и выполняет парметры указанные
- })                                                         // в функции
-
- console.log(oldArry);
-
-
- let newArrytwo = str;
-
-    function nameFuncTwo(newArrytwo) {
-        newArrytwo.map(return parseInt(i))
+let ford = Object.create({
+    calculateDistanceYear: function () {
+        Object.defineProperty(this, 'distancePerYear', {
+            value: (this.distance / this.age),
+            enumerable: true,
+            writable: false,
+            configurable: false
+        })
     }
->>>>>>> 96bfda5e7e501525c9373db48ffae4eebe3d76e4
+}, {
+    name: {
+        value: 'Ford',
+        enumerable: true,
+        writable: false,
+        configurable: false
+    },
+    model: {
+        value: 'Focus',
+        enumerable: true,
+        writable: false,
+        configurable: false
+    },
+    year: {
+        value: '2015',
+        enumerable: true,
+        writable: false,
+        configurable: false
+    },
+    distance: {
+        value: '120500',
+        enumerable: true,
+        writable: true,
+        configurable: false
+    },
+    age: {
+        enumerable: true,
+        get: function () {
+            console.log('Получаем возраст')
+            return new Date().getFullYear() - this.year
+        },
+        set: function () {
+            console.log('Установили значение')
+        }
+    }
+});
+
+console.log(ford);
+
