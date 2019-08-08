@@ -36,3 +36,11 @@ function saveForm(...args) {
 
     console.log(formData)
 }
+
+// function ul(...args) {
+//     let ul = document.querySelector('ul');
+//     ul.innerHTML = key;
+//     for (let key in ...args) {
+//         ul = key
+//     }
+// }
