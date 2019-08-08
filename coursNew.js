@@ -1,7 +1,3 @@
-// let nameCar = 'Ford';
-// let carYear = '2008';
-// let personYear = '1999';
-//
 
 // function calculateCar() {
 //     // let carYear = '2008';
@@ -286,52 +282,123 @@
 
 
 
+//
+// let ford = Object.create({
+//     calculateDistanceYear: function () {
+//         Object.defineProperty(this, 'distancePerYear', {
+//             value: (this.distance / this.age),
+//             enumerable: true,
+//             writable: false,
+//             configurable: false
+//         })
+//     }
+// }, {
+//     name: {
+//         value: 'Ford',
+//         enumerable: true,
+//         writable: false,
+//         configurable: false
+//     },
+//     model: {
+//         value: 'Focus',
+//         enumerable: true,
+//         writable: false,
+//         configurable: false
+//     },
+//     year: {
+//         value: '2015',
+//         enumerable: true,
+//         writable: false,
+//         configurable: false
+//     },
+//     distance: {
+//         value: '120500',
+//         enumerable: true,
+//         writable: true,
+//         configurable: false
+//     },
+//     age: {
+//         enumerable: true,
+//         get: function () {
+//             console.log('Получаем возраст')
+//             return new Date().getFullYear() - this.year
+//         },
+//         set: function () {
+//             console.log('Установили значение')
+//         }
+//     }
+// });
+//
+// console.log(ford);
+//
+// for (let key in ford) {
+//     if (ford.hasOwnProperty(key)) {
+//         console.log(key,ford[key])
+//     }
+// }
 
-let ford = Object.create({
-    calculateDistanceYear: function () {
-        Object.defineProperty(this, 'distancePerYear', {
-            value: (this.distance / this.age),
-            enumerable: true,
-            writable: false,
-            configurable: false
-        })
-    }
-}, {
-    name: {
-        value: 'Ford',
-        enumerable: true,
-        writable: false,
-        configurable: false
-    },
-    model: {
-        value: 'Focus',
-        enumerable: true,
-        writable: false,
-        configurable: false
-    },
-    year: {
-        value: '2015',
-        enumerable: true,
-        writable: false,
-        configurable: false
-    },
-    distance: {
-        value: '120500',
-        enumerable: true,
-        writable: true,
-        configurable: false
-    },
-    age: {
-        enumerable: true,
-        get: function () {
-            console.log('Получаем возраст')
-            return new Date().getFullYear() - this.year
-        },
-        set: function () {
-            console.log('Установили значение')
-        }
-    }
-});
+//
+// const person = {
+//     name: 'Max',
+//     age: 28,
+//     job: 'Front-End'
+// };
+//
+// for (let key in person) {
+//     console.log(person[key]);
+// }
+//
 
-console.log(ford);
+// let createCounter = function (counterName) {
+//     let counter = 0;
+//
+//     return function () {
+//         console.log(counterName, ++counter)
+//     }
+// };
+//
+// let counterA = createCounter('Counter A');
+// let counterB = createCounter('Counter B');
+//
+
+
+// const person = {
+//     name: 'Ilya',
+//     age: 20,
+//     job: 'Front-End',
+//     displayInfo: function (ms) {
+//         const self = this
+//         setTimeout(function () {
+//             console.log('Name: ', self.name);
+//             console.log('Job: ', self.job);
+//             console.log('Age: ', self.age);
+//         },ms);
+//     }
+// };
+//
+//
+// person.displayInfo(2000);
+//
+//
+
+// for (let i = 0; i < 5; i++) {
+//     setTimeout(function () {
+//         console.log(i)
+//     },2000)
+// }
+
+
+
+const calculateAge = (year) =>  new Date().getFullYear() - year;
+
+console.log(calculateAge(1999));
+
+
+
+
+
+
+
+
+
 
