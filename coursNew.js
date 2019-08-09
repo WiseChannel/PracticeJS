@@ -20,7 +20,7 @@
 //
 
 //     // switch(result === 9) {
-//     //     case 
+//     //     case
 //     // }
 
 //     return result;
@@ -389,14 +389,17 @@
 
 
 
-const calculateAge = (year) =>  new Date().getFullYear() - year;
+// const calculateAge = (year) =>  new Date().getFullYear() - year;
+//
+// console.log(calculateAge(1999));
 
-console.log(calculateAge(1999));
-
-
-
-
-
+//
+//
+// let p = document.querySelector('#root');
+//
+// p.addEventListener('click', () => {
+//     p.innerHTML = 'Hello Wise'
+// });
 
 
 
