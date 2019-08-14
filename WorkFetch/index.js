@@ -19,9 +19,9 @@ async function load() {
 
     let response = await fetch(url)
     let data = await response.json()
+    console.log(data)
 
          let ul = document.querySelector('#list')
-
             let html = data.map(function(item) {
                 return '<li>' + item.id + ' ' + item.name + ' (' + item.email +  ')</li>'   // этот код, более кроссбраузерный. Поддерживает больше браузеров
             })
