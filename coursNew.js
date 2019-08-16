@@ -1,4 +1,4 @@
-
+//
 // function calculateCar() {
 //     // let carYear = '2008';
 //     // let personYear = '1999';
@@ -11,38 +11,38 @@
 //         console.log('Result !=')
 //     }
 //
-//     // switch(result === 9) {
-//     //     case
-//     // }
+// //     switch(result === 9) {
+// //         case
+// //     }
 //
-//     return result;
-// }
-//
-
-//     // switch(result === 9) {
-//     //     case
-//     // }
-
-//     return result;
-// }
-
-
-// // console.log(calculateCar());
-
-// // const num = [1,2,3,5,2];
-
-// // num.push('Not a num')
-
-// //  for(let i = 0; i < 6; i++) {
-// //      console.log(num[i]);
-// //  }
-
-// // let mus = [1,2,3,4,5,6,7,8,9]
-
-// // for(let i = 0; i < mus.length; i++) {
-// //     console.log(mus[i]);
+// //     return result;
 // // }
-
+//
+//
+// //     switch(result === 9) {
+//
+// //     }
+//
+// //     return result;
+// // }
+//
+//
+// console.log(calculateCar());
+//
+// const num = [1,2,3,5,2];
+//
+// num.push('Not a num')
+//
+//  for(let i = 0; i < 6; i++) {
+//      console.log(num[i]);
+//  }
+//
+// let mus = [1,2,3,4,5,6,7,8,9]
+//
+// for(let i = 0; i < mus.length; i++) {
+//     console.log(mus[i]);
+// }
+//
 //
 // let div = document.getElementById('root')
 // let p = document.getElementsByClassName('root')     // старые методы обращение через DOM
@@ -55,18 +55,18 @@
 //
 //
 //
-
+//
 // // let div = document.getElementById('root')
 // // let p = document.getElementsByClassName('root')     // старые методы обращение через DOM
 // // let h1 = document.getElementsByTagName('h1')
-
-
+//
+//
 // // let div = document.querySelector('#nameID')   // позволяет более удобно получить элементы из ID
 // // let p = document.querySelectorAll('.p') //  получаем всю колекцию с класса
 // // let h1 = document.querySelector('h1') // получаем доступ ко-всем тегам h1
-
-
-
+//
+//
+//
 // function inner() {
 //     let ul = document.querySelector('#root');
 //     ul.innerHTML = '<p>Hello Wise</p>';
@@ -127,37 +127,37 @@
 //     p.innerHTML = 'NoWISE = )';
 //     });
 //
-
-
+//
+//
 // let str = '1,2,3,4,5,6,7,8';
-
+//
 // for(let i = 0; i < str.length; i++) {
 //     console.log(str[i])
 // }
-
+//
 // let array = str.split(',');
-
+//
 // const date = () => {
 //     console.log(Math.floor(new Date().getMilliseconds()))
 // };
 //
 // date();
-
+//
 // let num = [1,2,3,4,5];
-
+//
 // for (let i = 0; i < num.length; i++) {
 //    console.log(num[i])
 // }
-
-
+//
+//
 // let car = {
 //     name: 'ford',
 //     year: 2015
 // }
 //
 // console.log(car);
-
-
+//
+//
 //
 // Car.prototype.getAge = function() {
 //     return new Date().getFullYear() - this.year
@@ -174,31 +174,21 @@
 //
 // console.log(ford);
 // console.log(bmw);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//
+//
+//
+//
 // let p = document.querySelector('#root');
 // let button = document.querySelector('#inputeText');
 // let input = document.querySelector('#inputID')
-
+//
 // function nameF() {
 //     console.log('click');
 //     p.textContent = input.value
 // }
-
+//
 // button.addEventListener('click', nameF);
-
+//
 // p.addEventListener('mouseenter', function () {
 //     console.log('Mouse up!');
 //     p.innerHTML = 'WiseINC';
@@ -208,10 +198,10 @@
 //     console.log('Mouse up!');
 //     p.innerHTML = 'NoWISE = )';
 // })
-
+//
 // const divs = document.querySelectorAll('div');
 // const link = document.querySelector('.link')
-
+//
 // for(let i = 0; i < divs.length; i++) {
 //     divs[i].addEventListener('click', function(event) {
 //         event.stopPropagation()
@@ -219,26 +209,26 @@
 //         console.log(this.getAttribute('class'))
 //     })
 // }
-
+//
 // link.addEventListener('click', function(event) {
 //     event.preventDefault();
-
+//
 //     let div = link[0];
-
+//
 //     // if(div.style.display === 'none') {
 //     //     div.style.display = 'flex'
 //     // } else {
 //     //     div.style.display = 'none';
 //     // }
-
+//
 //     div.style.display === div.style.display === 'none'
 //     ? 'flex'
 //     : 'none'
-
+//
 // })
-
+//
 // const p = document.querySelectorAll('p')
-
+//
 // for(let i = 0; i < p.length; i++) {
 //     p[i].addEventListener('click', function(event) {
 //         event.target.style.color = 'red'
@@ -279,9 +269,9 @@
 //     function nameFuncTwo(newArrytwo) {
 //         newArrytwo.map(return parseInt(i))
 //     }
-
-
-
+//
+//
+//
 //
 // let ford = Object.create({
 //     calculateDistanceYear: function () {
@@ -336,7 +326,7 @@
 //         console.log(key,ford[key])
 //     }
 // }
-
+//
 //
 // const person = {
 //     name: 'Max',
@@ -348,7 +338,7 @@
 //     console.log(person[key]);
 // }
 //
-
+//
 // let createCounter = function (counterName) {
 //     let counter = 0;
 //
@@ -360,8 +350,8 @@
 // let counterA = createCounter('Counter A');
 // let counterB = createCounter('Counter B');
 //
-
-
+//
+//
 // const person = {
 //     name: 'Ilya',
 //     age: 20,
@@ -380,19 +370,19 @@
 // person.displayInfo(2000);
 //
 //
-
+//
 // for (let i = 0; i < 5; i++) {
 //     setTimeout(function () {
 //         console.log(i)
 //     },2000)
 // }
-
-
-
+//
+//
+//
 // const calculateAge = (year) =>  new Date().getFullYear() - year;
 //
 // console.log(calculateAge(1999));
-
+//
 //
 //
 // let p = document.querySelector('#root');
@@ -400,8 +390,8 @@
 // p.addEventListener('click', () => {
 //     p.innerHTML = 'Hello Wise'
 // });
-
-
-
-
-
+//
+//
+//
+//
+//
