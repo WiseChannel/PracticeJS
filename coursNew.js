@@ -395,3 +395,33 @@
 //
 //
 //
+
+
+
+// const text = 'life is good, \n life is great' // \n переносит на новую строку
+// console.log(text);
+
+const text = 'Life is good, life is great';
+const key = 'great'                                     //ищет слово и указывает на какой строчке оно находится
+const firstPos = text.indexOf(key);
+//indexOf()
+console.log(firstPos)                                   // lastIndexOf() надет не первый, а последний индекс
+
+const language = ' JavaScript ';
+console.log(language.length)
+
+const trimLanguage = language.trim();                   // trim - убирает проблемы из стринговой переменной (и не только)
+console.log(trimLanguage.length)
+
+const number = new Number('777');
+console.log(number)
+
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 // let people = [
 //     {name : 'Ilya', age: 20},
@@ -29,7 +28,6 @@
 
 
 
-=======
 // add
 
 
@@ -101,4 +99,3 @@ circle.$el.addEventListener('mouseenter', () => {
 circle.$el.addEventListener('mouseleave', () => {
     circle.show()
 });
->>>>>>> 261eb31c0e8ba2013578a190546a3b4767bed613
