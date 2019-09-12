@@ -401,6 +401,8 @@
 // const text = 'life is good, \n life is great' // \n переносит на новую строку
 // console.log(text);
 
+/*
+
 const text = 'Life is good, life is great';
 const key = 'great'                                     //ищет слово и указывает на какой строчке оно находится
 const firstPos = text.indexOf(key);
@@ -415,6 +417,56 @@ console.log(trimLanguage.length)
 
 const number = new Number('777');
 console.log(number)
+
+*/
+    //
+    // let dat = new Date();
+    //
+    // setInterval(
+    //     function data(){
+    //         console.log(dat)
+    //     }
+    // ),1000;
+
+
+
+    const array = ['test'];
+
+    for(let i = 1; i < 10; i++) {
+        array.push('add new number: ' + i);
+    }
+
+    let newArr = array.pop(); // вырезает последнее значение масива и оставляет в переменной
+    array.unshift('NewItem'); // добавляет в новый элемент в начало масива
+
+    console.log(newArr)
+    console.log(array)
+    //
+    //
+    // arr.splice(0,3);
+    // arr.splice()
+    let arr = ['Paul','Paul','Paul','Paul','Paul1'];
+
+let newA = arr.indexOf('Paul1');
+
+    if (newA) {
+        console.log(newA);
+        arr.unshift('Life is good')
+    }
+
+    console.log(arr)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
