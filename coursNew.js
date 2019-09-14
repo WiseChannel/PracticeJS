@@ -430,31 +430,31 @@ console.log(number)
 
 
 
-    const array = ['test'];
+    // const array = ['test'];
 
-    for(let i = 1; i < 10; i++) {
-        array.push('add new number: ' + i);
-    }
+    // for(let i = 1; i < 10; i++) {
+    //     array.push('add new number: ' + i);
+    // }
 
-    let newArr = array.pop(); // вырезает последнее значение масива и оставляет в переменной
-    array.unshift('NewItem'); // добавляет в новый элемент в начало масива
+    // let newArr = array.pop(); // вырезает последнее значение масива и оставляет в переменной
+    // array.unshift('NewItem'); // добавляет в новый элемент в начало масива
 
-    console.log(newArr)
-    console.log(array)
+    // console.log(newArr)
+    // console.log(array)
     //
     //
     // arr.splice(0,3);
     // arr.splice()
-    let arr = ['Paul','Paul','Paul','Paul','Paul1'];
+//     let arr = ['Paul','Paul','Paul','Paul','Paul1'];
 
-let newA = arr.indexOf('Paul1');
+// let newA = arr.indexOf('Paul1');
 
-    if (newA) {
-        console.log(newA);
-        arr.unshift('Life is good')
-    }
+//     if (newA) {
+//         console.log(newA);
+//         arr.unshift('Life is good')
+//     }
 
-    console.log(arr)
+//     console.log(arr)
 
 
 
