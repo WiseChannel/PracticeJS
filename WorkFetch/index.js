@@ -26,8 +26,7 @@ async function load() {
                 return '<li>' + item.id + ' ' + item.name + ' (' + item.email +  ')</li>'   // этот код, более кроссбраузерный. Поддерживает больше браузеров
             })
 
-            ul.insertAdjacentHTML('afterbegin', html.join(''))
-
+            ul.insertAdjacentHTML('afterbegin', html.join(''));
 }
 
 
