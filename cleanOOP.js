@@ -15,19 +15,6 @@
 
 // console.log(newPeople)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // add
 
 

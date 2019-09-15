@@ -9,9 +9,15 @@ const request = new XMLHttpRequest();
 let request = new ActiveXObject("Msxml2.XMLHTTP");
 
 // Попробуем использовать следующие функции, создающие объект XMLHttpRequest. HTTP._factories = [
-    function() { return new XMLHttpRequest()};
-    function() { return new ActiveXObject("Msxml2.XMLHTTP")};
-     function() { return new ActiveXObject("Microsoft.XMLHTTP")}; 
+    function() { 
+        return new XMLHttpRequest()
+    };
+    function() {
+         return new ActiveXObject("Msxml2.XMLHTTP")
+        };
+     function() {
+          return new ActiveXObject("Microsoft.XMLHTTP")
+        }; 
     
     // Когда будет обнаружена работоспособная функция, она будет сохранена здесь. HTTP._factory = null;
           // Создает и возвращает новый объект XMLHttpRequest.
@@ -20,7 +26,7 @@ let request = new ActiveXObject("Msxml2.XMLHTTP");
     // не будет найдена та, что вернет непустое значение и не возбудит исключение.
     // После того как будет обнаружена работоспособная функция, ссылка на нее // запоминается для последующего использования.
     //
-    HTTP.newRequest = function() {
+    HTTP.newRequest = () => {
     if (HTTP._factory != null) return HTTP._factory();
             for(var i = 0; i < HTTP._factories.length; i++) {
                 try {
@@ -41,4 +47,4 @@ let request = new ActiveXObject("Msxml2.XMLHTTP");
 
 
 
-request.setRequestHeader("User􏰀Agent", "XMLHttpRequest"); request.setRequestHeader("Accept􏰀Language", "en"); request.setRequestHeader("If􏰀Modified􏰀Since", lastRequestTime.toString());
+    request.setRequestHeader("User􏰀Agent", "XMLHttpRequest"); request.setRequestHeader("Accept􏰀Language", "en"); request.setRequestHeader("If􏰀Modified􏰀Since", lastRequestTime.toString());
