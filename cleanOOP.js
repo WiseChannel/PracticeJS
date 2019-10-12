@@ -1,88 +1,88 @@
 
-// let people = [
-//     {name : 'Ilya', age: 20},
-//     {name : 'Ilya', age: 20},
-//     {name : 'Ilya', age: 20},
-//     {name : 'Ilya', age: 20},
-//     {name : 'Ilya', age: 20},
-//     {name : 'Ilya', age: 20},
-// ];
+    // let people = [
+    //     {name : 'Ilya', age: 20},
+    //     {name : 'Ilya', age: 20},
+    //     {name : 'Ilya', age: 20},
+    //     {name : 'Ilya', age: 20},
+    //     {name : 'Ilya', age: 20},
+    //     {name : 'Ilya', age: 20},
+    // ];
 
 
-// const newPeople = people.map(persone => {
-//     return `${persone.name} (${persone.age})`
-// });
+    // const newPeople = people.map(persone => {
+    //     return `${persone.name} (${persone.age})`
+    // });
 
-// console.log(newPeople)
+    // console.log(newPeople)
 
-// add
+    // add
 
 
-// RootElement <= Box <= instances
+    // RootElement <= Box <= instances
 
-class RootElement {
-    constructor(tagName = 'div') {
-        this.$el = document.createElement(tagName)
-        this.$el.style.marginBottom = '20px'
+    class RootElement {
+        constructor(tagName = 'div') {
+            this.$el = document.createElement(tagName)
+            this.$el.style.marginBottom = '20px'
+        }
+
+        hide() {
+            this.$el.style.opacity = '0'
+        }
+
+        show() {
+            this.$el.style.opacity = '1'
+        }
+
+        append() {
+            document.querySelector('.wrapper').insertAdjacentElement('beforeend', this.$el)
+        }
     }
 
-    hide() {
-        this.$el.style.opacity = '0'
+    class Box extends RootElement {
+        constructor(color, size = 150, tagName) {
+            super(tagName)
+            this.color = color
+            this.size = size
+        }
+
+        create() {
+            this.$el.style.background = this.color
+            this.$el.style.width = this.$el.style.height = `${this.size}px`
+
+            this.append()
+
+            return this
+        }
     }
 
-    show() {
-        this.$el.style.opacity = '1'
+    class Circle extends RootElement {
+        constructor(color) {
+            super()
+
+            this.color = color
+        }
+
+        create() {
+            this.$el.style.borderRadius = '50%'
+            this.$el.style.width = this.$el.style.height = `120px`
+            this.$el.style.background = this.color
+
+            this.append()
+
+            return this
+        }
     }
 
-    append() {
-        document.querySelector('.wrapper').insertAdjacentElement('beforeend', this.$el)
-    }
-}
+    const redBox = new Box('red', 100, 'div').create()
+    const blueBox = new Box('blue').create()
 
-class Box extends RootElement {
-    constructor(color, size = 150, tagName) {
-        super(tagName)
-        this.color = color
-        this.size = size
-    }
+    const circle = new Circle('green').create()
 
-    create() {
-        this.$el.style.background = this.color
-        this.$el.style.width = this.$el.style.height = `${this.size}px`
+    circle.$el.addEventListener('mouseenter', () => {
+        circle.hide()
+    });
 
-        this.append()
-
-        return this
-    }
-}
-
-class Circle extends RootElement {
-    constructor(color) {
-        super()
-
-        this.color = color
-    }
-
-    create() {
-        this.$el.style.borderRadius = '50%'
-        this.$el.style.width = this.$el.style.height = `120px`
-        this.$el.style.background = this.color
-
-        this.append()
-
-        return this
-    }
-}
-
-const redBox = new Box('red', 100, 'div').create()
-const blueBox = new Box('blue').create()
-
-const circle = new Circle('green').create()
-
-circle.$el.addEventListener('mouseenter', () => {
-    circle.hide()
-});
-
-circle.$el.addEventListener('mouseleave', () => {
-    circle.show()
-});
+    circle.$el.addEventListener('mouseleave', () => {
+        circle.show()
+    });

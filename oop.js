@@ -1,4 +1,6 @@
 
+
+
 const redBox = new Box('red', 100, 'div').create()
 const blueBox = new Box('blue').create()
 

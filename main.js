@@ -155,7 +155,6 @@ const arg = prompt('Введите arg')
 
 
 
-<<<<<<< HEAD
 
     function showMessage() {
         alert('Hello mr.Fridman');
@@ -163,20 +162,17 @@ const arg = prompt('Введите arg')
 
     showMessage();
 
-=======
-    
+
     function showMessage() {
         alert('Hello mr.Fridman');
     }
-    
+
     showMessage();
-    
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
+
 
 
     var test = calcD(-4,2,1);
     console.log(test);
-<<<<<<< HEAD
 
     function calcD(a,b,c) {
         return b * b - 4 * a * c;
@@ -204,35 +200,33 @@ const arg = prompt('Введите arg')
 
     var n = 12.345;
 
-=======
-    
+
     function calcD(a,b,c) {
         return b * b - 4 * a * c;
     }
-    
 
-    
+
+
     var userName = prompt('Введите имя', 'Василий');
     var isTeaWanted = confirm('Вы хотите чаю?');
-    
+
     alert('Посетитель: ' + userName);
     alert('Чай: ' + isTeaWanted);
-    
-    
+
+
 
 
     var num = 'Hello World';
-    
+
     console.log(num.length);
-    
+
     console.log(num.toUpperCase());
-    
 
 
-    
+
+
     var n = 12.345;
-    
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
+
     alert( n.toFixed(2) ); //"12.35"
     alert( n.toFixed(0) ); //"12"                        //Error
     alert( n.toFixed(5) ); //"12.34500"
@@ -244,21 +238,15 @@ const arg = prompt('Введите arg')
 
 
     alert(parseInt('12px'));
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
+
     alert(parseFloat('12.2.3'));
 
 
 
     var n = 255;
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
+
     alert(n.toString(16)); // переводит число в 16 ричную систему
 
 
@@ -266,7 +254,6 @@ const arg = prompt('Введите arg')
     alert(Math.ceil(3.1)); // округляет вверх
     alert(Math.round(3.4)); // округляет до ближайшего целого числа
 
-<<<<<<< HEAD
 
     var number = 123456789;
 
@@ -274,20 +261,17 @@ const arg = prompt('Введите arg')
 
 
 
-=======
-    
+
     var number = 123456789;
-    
+
     alert(number.toLocaleString() ); // выводит числа красиво
 
 
-    
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
+
     var person = {
         soName: 'Мудрый',
         motherName: 'Светлана'
     };
-<<<<<<< HEAD
 
     person.name = 'Илья';       // создание
     person.age = '19';
@@ -302,33 +286,28 @@ const arg = prompt('Введите arg')
 
 
     console.log('Имя мамы: ' + person.motherName + ' Фамилия Ильи: ' + person.soName);
-=======
-    
+
     person.name = 'Илья';       // создание
     person.age = '19';
-    
+
     console.log('Имя: ' + person.name, 'и возраст: ' + person.age);
-    
+
     delete person.age;                                                  // удаление
-    
+
     if ('name' in person) {
         console.log('Свойство name существует');     //проверка на наличие
     }
-    
-    
+
+
     console.log('Имя мамы: ' + person.motherName + ' Фамилия Ильи: ' + person.soName);
-    
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
 
 
 
 
-<<<<<<< HEAD
 
 
-=======
-    
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
+
+
     var user = {
         name: 'Таня',
         age: 25,
@@ -338,18 +317,12 @@ const arg = prompt('Введите arg')
             bottom: 90
         }
     };
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
     alert(user.name);
     alert(user.size.top);
 
 
 
 
-<<<<<<< HEAD
 
     var user = {};
 
@@ -361,30 +334,25 @@ const arg = prompt('Введите arg')
 
     delete user.name;
 
-=======
-    
+
     var user = {};
-    
+
     user.name = 'Vasa';
     user.surname = 'Petrov';
-    
+
     user.name = 'Sergey';
-    
-    
+
+
     delete user.name;
-    
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
+
     console.log(user.surname);
 
 
 
-<<<<<<< HEAD
 
 
-=======
-    
-    
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
+
+
     var menu = {
         width: 300,
         height: 200,
@@ -392,11 +360,8 @@ const arg = prompt('Введите arg')
         maxWidth: 209,
         maxHeight: 110
     };
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
+
     for (var key in menu) {
         console.log('Ключ: ' + key + ' Значение: ' + menu[key] );        //Сортировка
     }
@@ -404,16 +369,10 @@ const arg = prompt('Введите arg')
 
 
 
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
     var user = {
         name: 'Vasa',
         age: 30
     };
-<<<<<<< HEAD
 
     var clone = {};
 
@@ -461,83 +420,78 @@ const arg = prompt('Введите arg')
     }
 
 
-=======
-    
+
     var clone = {};
-    
-    
+
+
     for (var key in user) {
         clone[key] = user[key];
     }
-    
 
 
-    
-    
+
+
+
     var arr = [];
-    
-    
+
+
     var fruits = ['Apple', 'Orange', 'Plum'];
-    
+
     console.log(fruits[0]);
     console.log(fruits[1]);
     console.log(fruits[2]);
-    
-    
+
+
     fruits[2] = 'Pompkins'; // можно заменить
-    
+
     fruits[4] = 'NewApple'; // и так добавить
-    
+
     console.log(fruits.length);
     console.log(fruits);
-    
-    
-    
+
+
+
                                                 //Сортировка масива
-    
-    
+
+
     console.log(fruits.pop()); // удаляет последний элемент масива
-    
+
     console.log(fruits.push('NewItem') ); // добавляет новый элемент масива в конец
-    
+
     console.log(fruits.shift()); // удаляе из масива первый элемент и возращает его
-    
+
     console.log(fruits.unshift('TwoItems') ); // добавляет элемент в начало масива
-    
+
     for (var i = 0; i < fruits.length; i++) {           // перебор масива при поомщи цикла
         console.log(fruits[i]);
     }
-    
-    
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
+
+
     var matrix = [
         [1,2,3],
         [4,5,6],
         [7,8,9],
     ];
 
-    reverse - меняет порядок элементов
+    // reverse - меняет порядок элементов
+    //
+    // contact - добавляет новые элементы к уже существующего масива
+    //
+    // forEach -  используется для перебора масива
+    //
+    // filter - используется для фильтрации масива через функцию
+    //
+    // map - используеться для трансформации масива
+    //
+    // reduce/reduceRight— для прохода по массиву с вычислением значения
 
-    contact - добавляет новые элементы к уже существующего масива
 
-    forEach -  используется для перебора масива
-
-    filter - используется для фильтрации масива через функцию
-
-    map - используеться для трансформации масива
-
-    reduce/reduceRight— для прохода по массиву с вычислением значения
-
-
-<<<<<<< HEAD
 
     var time = new Date();  // Объект с времинем и точной датой
 
-=======
-    
+
     var time = new Date();  // Объект с времинем и точной датой
-    
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
+
     console.log(time);
 
 
@@ -545,35 +499,22 @@ const arg = prompt('Введите arg')
         name: 'ilya',
         soname: 'Wise'
     };
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
        console.log(this.user) ;
 
 
 
     var user = {
         name: 'Василий',
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
         sayHi: function () {
             console.log(this.name);  // Указатель this
         }
     };
-<<<<<<< HEAD
 
     user.sayHi();
 
-=======
-    
+
     user.sayHi();
-    
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
+
     user.sayHi();
 
 
@@ -581,7 +522,18 @@ const arg = prompt('Введите arg')
 
 
     function f(x) {
-<<<<<<< HEAD
+
+    };
+
+    var timers = {};
+
+    f = timingDecorator(f,'myfunc');
+
+    f(1);
+    f(2);
+    f(3);
+
+    console.log(timers.myFunc)
 
     };
 
@@ -594,31 +546,8 @@ const arg = prompt('Введите arg')
     f(3);
 
     console.log(timers.myFunc);
-=======
-    
-    };
-    
-    var timers = {};
-    
-    f = timingDecorator(f,'myfunc');
-    
-    f(1);
-    f(2);
-    f(3);
-    
-    console.log(timers.myFunc);
-    
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
 
 
-
-
-<<<<<<< HEAD
-
-
-=======
-    
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
     function func() {
         while (i = 0; i < 100) {
             console.log(i);
@@ -627,39 +556,27 @@ const arg = prompt('Введите arg')
     setTimeout(func, 5000);
 
 
-                               КофеВарка на ООП
+            //                   КофеВарка на ООП
 
-
-
-<<<<<<< HEAD
 
     function CoffeeMachine(power) {
         this.waterAmount = 0;
 
-=======
-   
+
     function CoffeeMachine(power) {
         this.waterAmount = 0;
-   
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
+
         // расчет времени для кипячения
         function getBoilTime() {
             return 1000; // точная формула расчета будет позже
         }
-<<<<<<< HEAD
 
-=======
-   
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
         //что делать по окончании процесса
         function onReady() {
             console.log('Кофе готово!');
         }
-<<<<<<< HEAD
 
-=======
-   
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
+
         this.run = function() {
             //setTimeout - встроенная функция
             // она запустит onReady через getBoilTime
@@ -668,7 +585,6 @@ const arg = prompt('Введите arg')
     }
     var coffeeMachine = new CoffeeMachine(100);
     coffeeMachine.waterAmount = 200;
-<<<<<<< HEAD
 
    coffeeMachine.run();
 
@@ -684,21 +600,19 @@ const arg = prompt('Введите arg')
     let person = 'Wise';
     console.log(`Привет ${person}`)     // строковые шаблоны и разделители
 
-=======
-   
+
    coffeeMachine.run();
-   
-   
-   
+
+
+
    let oValue = 0o10;
    console.log(oValue);
-   
-   
+
+
     let twoValue = 0020;                         // восьмиричная и двоичная система исчисления
     console.log(twoValue);
-   
+
     let person = 'Wise';
     console.log(`Привет ${person}`)     // строковые шаблоны и разделители
-   
-   
->>>>>>> be43a0ac3c2b331e3f4093553d55c58478743acc
+
+
