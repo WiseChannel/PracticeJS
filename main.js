@@ -1,7 +1,7 @@
 
 
 
-const name = 'Ilya', soname = 'Wise', age = '19 year';
+const name = 'Ilya', soname = 'Wise', age = '20 year';
 let constPe = 123;
 var mother = 'Svetlana';
 
@@ -24,11 +24,11 @@ var user = {
     name : 'Dasha'
 };
 
-typeof user;
+//typeof user;
 
 console.log(typeof notTrue);
 
-typeof - возращает тип аргумента
+//typeof - возращает тип аргумента
 
 
 var access = access.toString(11);
