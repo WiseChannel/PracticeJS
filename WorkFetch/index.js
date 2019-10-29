@@ -1,4 +1,5 @@
-document.querySelector('#load').addEventListener('click', load)
+document.querySelector('#load')
+    .addEventListener('click', load);
 
 async function load() {
     const url = 'https://jsonplaceholder.typicode.com/users'
@@ -8,11 +9,9 @@ async function load() {
     //     })
     //     .then(function(data) {
     //         let ul = document.querySelector('#list')
-
     //         let html = data.map(function(item) {
     //             return '<li>' + item.id + ' ' + item.name + ' (' + item.email +  ')</li>'
     //         })
-
     //         ul.insertAdjacentHTML('afterbegin', html.join(''))
     //         console.log(data)
     //     })
@@ -36,12 +35,9 @@ async function load() {
 // let response = await fetch(url)
 //     let data = await response.json()
 //     console.log(data)
-
 //          let ul = document.querySelector('#list')
 //             let html = data.map(function(item) {
 //                 return '<li>' + item.id + ' ' + item.name + ' (' + item.email +  ')</li>'   // этот код, более кроссбраузерный. Поддерживает больше браузеров
 //             })
-
 //             ul.insertAdjacentHTML('afterbegin', html.join(''))
-
 // }
