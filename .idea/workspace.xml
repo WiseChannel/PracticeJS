@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1267d8a-e9a5-4fa0-85eb-2a6e47a03ae7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FuncOOP.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorkFetch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WorkFetch/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorkFetch/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/WorkFetch/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map, Set, WeakMap, WeakSet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Map, Set, WeakMap, WeakSet/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +57,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -73,18 +72,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.ES6.js">
+  <component name="RunManager" selected="Node.js.index.js">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PracticeJS/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="ES6.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="ES6.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="FuncOOP.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/FuncOOP.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="coursNew.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="coursNew.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Map, Set, WeakMap, WeakSet/index.js" working-dir="$PROJECT_DIR$/Map, Set, WeakMap, WeakSet">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.FuncOOP.js" />
         <item itemvalue="Node.js.ES6.js" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.coursNew.js" />
@@ -111,7 +118,10 @@
       <workItem from="1572173579483" duration="41000" />
       <workItem from="1572173657220" duration="16000" />
       <workItem from="1572173683109" duration="23000" />
-      <workItem from="1572352184114" duration="106000" />
+      <workItem from="1572352184114" duration="907000" />
+      <workItem from="1572532066253" duration="13000" />
+      <workItem from="1572532099212" duration="406000" />
+      <workItem from="1572546862400" duration="804000" />
     </task>
     <servers />
   </component>
