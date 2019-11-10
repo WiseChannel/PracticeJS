@@ -24,8 +24,10 @@
     // Приостановленная с помощью await функция, так же должна возращать Promise
 
 
-    let  binarySearch = (arr, i) {
-        var mid = Math.floor(arr.length / 2);
+    let  binarySearch = (arr, i) => {
+
+        let mid = Math.floor(arr.length / 2);
+        
         if (arr[mid] === i) {
             console.log("match", arr[mid], i);
             return arr[mid];

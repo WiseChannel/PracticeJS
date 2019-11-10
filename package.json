@@ -1,0 +1,19 @@
+{
+  "name": "practicejs",
+  "version": "1.0.0",
+  "description": "01.01.19",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WiseChannel/PracticeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WiseChannel/PracticeJS/issues"
+  },
+  "homepage": "https://github.com/WiseChannel/PracticeJS#readme"
+}

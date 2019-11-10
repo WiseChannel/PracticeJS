@@ -112,3 +112,4 @@ class Bird extends Animals {
 
 const duck = new Bird('Duckss', 'quackss', true)
 duck.say();
+

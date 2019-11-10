@@ -34,6 +34,11 @@ function saveForm(...args) {
         title,text,description
     };
 
+    let name = {
+        name: 123,
+        dviglo: name
+    }
+ 
     console.log(formData)
 }
 
