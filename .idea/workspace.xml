@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1267d8a-e9a5-4fa0-85eb-2a6e47a03ae7" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/miniCours.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Async\Await\Fetch\Promise/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Async\Await\Fetch\Promise/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ES6.js" beforeDir="false" afterPath="$PROJECT_DIR$/ES6.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/form.js" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map, Set, WeakMap, WeakSet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Map, Set, WeakMap, WeakSet/index.js" afterDir="false" />
+>>>>>>> 854eae8cc747ee947dec9a8b92a1d932a343359b
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +50,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -52,6 +58,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1TCeUWjEkdNvd1xsmVBbr5go6IY" />
+=======
+  <component name="ProjectId" id="1SmfNo4o1HiqHEPeEZxUfdBRY59" />
+>>>>>>> 854eae8cc747ee947dec9a8b92a1d932a343359b
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -69,8 +78,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+<<<<<<< HEAD
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+=======
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+>>>>>>> 854eae8cc747ee947dec9a8b92a1d932a343359b
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -84,22 +98,38 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Node.js.coursMinin.js">
+=======
+  <component name="RunManager" selected="Node.js.index.js">
+>>>>>>> 854eae8cc747ee947dec9a8b92a1d932a343359b
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PracticeJS/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="ES6.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="ES6.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="coursMinin.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/coursMinin.js" working-dir="$PROJECT_DIR$">
+=======
+    <configuration name="FuncOOP.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/FuncOOP.js" working-dir="$PROJECT_DIR$">
+>>>>>>> 854eae8cc747ee947dec9a8b92a1d932a343359b
       <method v="2" />
     </configuration>
     <configuration name="coursNew.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="coursNew.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Map, Set, WeakMap, WeakSet/index.js" working-dir="$PROJECT_DIR$/Map, Set, WeakMap, WeakSet">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Node.js.coursMinin.js" />
+=======
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.FuncOOP.js" />
+>>>>>>> 854eae8cc747ee947dec9a8b92a1d932a343359b
         <item itemvalue="Node.js.ES6.js" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.coursNew.js" />
@@ -122,7 +152,18 @@
       <workItem from="1567137145095" duration="49000" />
       <workItem from="1570900019214" duration="6053000" />
       <workItem from="1571068031977" duration="2383000" />
+<<<<<<< HEAD
       <workItem from="1572968528305" duration="1225000" />
+=======
+      <workItem from="1572101211030" duration="562000" />
+      <workItem from="1572173579483" duration="41000" />
+      <workItem from="1572173657220" duration="16000" />
+      <workItem from="1572173683109" duration="23000" />
+      <workItem from="1572352184114" duration="907000" />
+      <workItem from="1572532066253" duration="13000" />
+      <workItem from="1572532099212" duration="406000" />
+      <workItem from="1572546862400" duration="804000" />
+>>>>>>> 854eae8cc747ee947dec9a8b92a1d932a343359b
     </task>
     <servers />
   </component>
@@ -134,7 +175,13 @@
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< HEAD
             <State />
+=======
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+>>>>>>> 854eae8cc747ee947dec9a8b92a1d932a343359b
           </value>
         </entry>
       </map>
