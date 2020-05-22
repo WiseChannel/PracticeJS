@@ -6,9 +6,53 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Labs</title>
+
+    <style>
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+            flex-direction: column;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            margin: 15px 0;
+        }
+
+        .square {
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+
+        .triangle-up {
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid red;
+        }
+    </style>
+
 </head>
 <body>
 
-<script src="index.js"></script>
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="square"></div>
+            <div class="triangle-up"></div>
+        </div>
+        <div class="row">
+            <button id="IncreaseSize" type="button">Increase Size +5px</button>
+            <button id="CreateNewShape" type="button">Create a new shape</button>
+        </div>
+    </div>
+</main>
+
+<script defer src="index.js"></script>
 </body>
 </html>
