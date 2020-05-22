@@ -1,9 +1,7 @@
-const square = document.getElementsByClassName('square')
-const triangleUp = document.getElementsByClassName('triangle-up')
-const container = document.getElementsByClassName('container')
+const square = document.querySelector('.square')
+const triangleUp = document.querySelector('.triangle-up')
+const container = document.querySelector('.container')
 
-const IncreaseSize = document.querySelector('#IncreaseSize')
-const CreateNewShape = document.querySelector('#CreateNewShape')
 
 // Класс для вычисления периметра фигуры и привязки обработчика к событию "изменение периметра"
 class figurePerimeterCalculation {
@@ -30,7 +28,7 @@ class flatFigure {
 
     // изменение периметра
     perimeterChange() {
-
+        square.style.width + '5px'
     }
 }
 
@@ -72,7 +70,12 @@ class Square extends flatFigure {
 //     //const regularTriangle = new regularTriangle()
 // }
 
-const triangle = new Triangle()
-triangle.triangle()
+const flatFigureM = new flatFigure()
 
-console.log(square)
+const IncreaseSize = document.querySelector('#IncreaseSize').addEventListener('click', () => {
+    let WIDTH = 120
+    square.style.width = WIDTH + 'px'
+    WIDTH + 100
+    console.log(WIDTH + 10);
+})
+const CreateNewShape = document.querySelector('#CreateNewShape')
